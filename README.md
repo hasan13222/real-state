@@ -6,3 +6,5 @@
  --Using both server components and client components
  --fetching data without using useEffect hook
  --dynamic routing
+ --implemented search filter 
+ --implemented unlimited loading
