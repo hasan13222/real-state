@@ -1,0 +1,39 @@
+/*top section*/
+.top_section_wrapper {
+    padding: 9rem 0;
+    padding-bottom: 10rem;
+}
+.btn:hover{
+	opacity: 0.7;
+}
+/*contact section*/
+.contact_wrapper .row {
+  max-width: 47rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.contact_wrapper .row .shadow {
+  box-shadow: 0px 1px 16px #00000029 !important;
+  border-radius: 5px;
+}
+.contact_wrapper .row h2.text-dark {
+  font-size: 1.3rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1.7rem;
+  padding-left: 1rem;
+}
+.contact_wrapper .row form input.form-control::placeholder {
+  color: #121212 !important;
+}
+.contact_wrapper .row form textarea.form-control::placeholder {
+  color: #121212;
+}
+.contact_wrapper .row form .form-control {
+  border: 2px solid #d3d3d3;
+}
+.contact_wrapper .row .row .col-12 button.text-white {
+  background-color: purple;
+  padding: .375rem 4rem;
+  margin-top: 1.25rem;
+  margin-bottom: 3rem;
+}

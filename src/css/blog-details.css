@@ -1,0 +1,116 @@
+/*top section typo*/
+.text_purple {
+  color: #721B65;
+}
+.top_section_wrapper {
+    padding: 9rem 0;
+    padding-bottom: 10rem;
+}
+.blog_wrapper .shadow {
+    box-shadow: 0 0 1rem rgba(113, 108, 108, 0.15) !important;
+}
+.blog_wrapper h4.text-dark {
+  font-size: 1.2rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/*thumb and post description rows*/
+
+.blog_inner .post_thumb img {
+  width: 100%;
+}
+.blog_inner .bm,.blog_inner .comments {
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.blog_inner .bm .blog_meta {
+  margin-top: 3rem;
+}
+.blog_inner .bm .blog_meta .col-6, .blog_inner .bm .blog_meta .col-2 {
+  padding-right: 0;
+}
+.blog_inner .bm .blog_meta .col-2 span.total {
+  font-size: 0.85rem;
+}
+.blog_inner .bm .blog_meta .col-2 img {
+  width: 15px;
+}
+.blog_inner .blog_desc h2.text-dark {
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.blog_inner .blog_bottom {
+  margin-top: 2rem;
+}
+.blog_inner .blog_bottom .col-12 h3.text-dark {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.blog_inner .blog_bottom .col-12 .badge {
+  margin-left: 0;
+  font-weight: 600;
+  border: 1.5px solid #ccc7c7;
+  padding: .45em .74em;
+}
+.blog_inner .bm {
+  padding-bottom: 3rem;
+}
+/*comments*/
+.comments .cm .col-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.comments .cm .col-6 {
+  margin-left: -3rem;
+}
+.comments .cm .col-3 .cm_author {
+  margin-top: -5px;
+}
+.comments .cm .col-3 a.text-dark {
+  font-size: 0.96rem;
+  background: url('../images/blog/share.png') no-repeat;
+  background-position: left;
+  padding-left: 2rem;
+}
+.comments .cm .col-6 .text_purple {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.comments .cm .col-6 h6 {
+  margin-bottom: 2px;
+}
+.comments form .btn_purple {
+    padding: 0.25rem 3.75rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}.comments form .btn_purple {
+  padding: 0.25rem 3.75rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+/*blog sidebar*/
+.blog_sidebar .search, .blog_sidebar .trending {
+  margin: 0 auto;
+  margin-bottom: 2.75rem;
+}.blog_sidebar .search, .blog_sidebar .trending {
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+}
+.blog_sidebar h3.text-dark {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.95rem;
+}
+.trending .tr {
+  margin-top: 1.2rem;
+}
+.trending .tr img {
+  width: 100%;
+}
+.trending .tr .col-9 {
+  padding-left: 0;
+}
+.blog_sidebar .pb-4 {
+  padding-bottom: 3rem !important;
+}

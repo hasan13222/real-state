@@ -1,0 +1,8 @@
+@media only screen and (max-width: 576px){
+	.contact_wrapper .row{
+		margin-bottom: 0;
+	}
+	.contact_wrapper .row .col-12{
+		margin-bottom: 1rem;
+	}
+}

@@ -1,0 +1,13 @@
+/*top section*/
+.top_section_wrapper {
+    padding: 9rem 0;
+    padding-bottom: 10rem;
+}
+/*listings*/
+.blog_wrapper .blog_inner {
+  margin-top: 2rem;
+}
+.blog_wrapper .btn_purple {
+  margin-top: 3rem;
+  padding: .375rem 3.75rem;
+}

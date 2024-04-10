@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1200px){
+	.latest_pro .latest .card-footer p{
+		font-size: 0.75rem;
+	}
+	.schedule .dt{
+		max-width: 122px;
+	}
+}
+@media only screen and (max-width: 992px){
+	.floor_plan .flp .clp .flp_head .col-2 span.text-dark {
+	    font-size: 0.85rem;
+	}
+	.floor_plan .flp .clp .flp_head .col-2:first-of-type {
+	   	padding-right: 0;
+	}
+	.sidebar {
+	    margin-top: 5rem;
+	}
+	.sidebar .row {
+	    margin: auto -15px;
+	    margin-bottom: 2.5rem;
+	}
+	.sidebar .card .row {
+	    margin-bottom: 0;
+	    margin: auto;
+	}
+	.schedule .dt {
+	    max-width: 196px;
+	    margin: 0 5rem;
+	}
+}
+@media only screen and (max-width: 768px){
+	.floor_plan .flp .clp .flp_head .col-2 h5.text-dark{
+		font-size: 0.75rem;
+	}
+	.floor_plan .flp .clp .flp_head .col-2 span.text-light{
+		display: none;
+	}
+	.floor_plan .flp:first-of-type .clp_show img {
+	    width: 100%;
+	}
+	.schedule .dt {
+	    max-width: 170px;
+	    margin: 0 50px;
+	}
+}
+@media only screen and (max-width: 576px){
+	.floor_plan .flp .clp .flp_head .col-2 h5.text-dark {
+	    font-size: 0.65rem;
+	}
+	.floor_plan .flp .clp .flp_head .col-2 span.text-dark {
+	    font-size: 0.65rem;
+	}
+	.schedule .dt {
+	    max-width: 135px;
+	    margin: 0;
+	    margin-left: 15px;
+	}
+}
+

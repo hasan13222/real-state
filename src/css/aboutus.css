@@ -1,0 +1,18 @@
+/*top section*/
+.top_section_wrapper {
+    padding: 9rem 0;
+    padding-bottom: 10rem;
+}
+
+/*about section*/
+.about_wrapper .img_col img {
+  width: 100%;
+}
+.about_wrapper .col-12 h2.text-dark {
+  margin-top: 3.9rem;
+  margin-bottom: 2.25rem;
+}
+.about_wrapper .col-12 .btn_purple {
+  padding: .375rem 2.75rem;
+  margin-top: 1.5rem;
+}
