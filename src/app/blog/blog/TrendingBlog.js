@@ -4,13 +4,13 @@ import Image from "next/image";
 const TrendingBlog = ({ items }) => {
   return (
     <>
-      <div class="trending row shadow pb-4">
-        <div class="col-12">
-          <h3 class="text-dark">Trending Blog</h3>
+      <div className="trending row shadow pb-4">
+        <div className="col-12">
+          <h3 className="text-dark">Trending Blog</h3>
           {items.map((item) => (
             <Fragment key={item.id}>
-              <div class="row tr">
-                <div class="col-3">
+              <div className="row tr">
+                <div className="col-3">
                   <Image
                     width={57}
                     height={57}
@@ -18,8 +18,8 @@ const TrendingBlog = ({ items }) => {
                     alt="post thumb"
                   />
                 </div>
-                <div class="col-9">
-                  <p class="text-dark">
+                <div className="col-9">
+                  <p className="text-dark">
                     {item.title}
                   </p>
                 </div>

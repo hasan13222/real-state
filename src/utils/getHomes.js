@@ -1,7 +1,5 @@
-import { promises as fs } from 'fs';
 
 export const getHomes = async () => {
-    const res = await fs.readFile('./homes.json');
-    const result = JSON.parse(res);
-    return result;
+    const res = await fetch("https://real-estate-server-nine.vercel.app/homes");
+    return res.json();
 }

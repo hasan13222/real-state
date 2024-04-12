@@ -1,6 +1,5 @@
-import { promises as fs } from 'fs';
 
 export const getAgents = async () => {
-    const res = await fs.readFile(process.cwd() + '/agents.json');
-    return JSON.parse(res);
+    const res = await fetch("https://real-estate-server-nine.vercel.app/agents");
+    return res.json();
 }
