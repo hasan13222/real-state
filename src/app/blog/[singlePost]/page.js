@@ -13,14 +13,9 @@ import pinterestIcon from "@/images/blog/pinterest.png"
 import loveIcon from "@/images/home/love.png"
 import commentIcon from "@/images/home/comment.png"
 import shareIcon from "@/images/home/share.png"
-// import { getPosts } from "@/utils/getPosts";
+import { getPosts } from "@/utils/getPosts";
 import TrendingBlog from "../blog/TrendingBlog";
 import Comment from "../blog/Comment";
-
-const getPosts = async () => {
-    const res = await fetch("https://real-estate-server-nine.vercel.app/posts");
-    return res.json();
-}
 
 const page = async ({ params }) => {
   const posts = await getPosts();
