@@ -4,12 +4,17 @@ import "@/css/style.css";
 import "@/css/responsive.css";
 import "@/css/property.css";
 import "@/css/property-responsive.css";
-import { getHomes } from "@/utils/getHomes";
+// import { getHomes } from "@/utils/getHomes";
 import Image from "next/image";
 import PropertySlider from "../singleProperty/PropertySlider";
 import FloorPlan from "../singleProperty/FloorPlan";
 import LatestProperties from "../singleProperty/LatestProperties";
 import ContactAgent from "../singleProperty/ContactAgent";
+
+const getHomes = async () => {
+  const res = await fetch("https://real-estate-server-nine.vercel.app/homes");
+  return res.json();
+}
 
 const page = async ({ params }) => {
   const homes = await getHomes();
